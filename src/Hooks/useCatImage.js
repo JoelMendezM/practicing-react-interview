@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { getRandomImage } from '../Service/getRandomImage';
 
-
 export function useCatImage ({ randomFact }) {
   const CAT_PREFIX_IMAGE_URL = 'https://cataas.com';
   const [randomUrlImage, setRandomUrlImage] = useState();
